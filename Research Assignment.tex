@@ -1,0 +1,63 @@
+\documentclass[11pt]{article}
+
+\title{CONSIDERING THE PERFORMANCE LIMITERS FOR CONTROLS.}
+
+\author{DEPARTMENT OF COMPUTER SCIENCE}
+\author{GROUP 123}
+
+
+\begin{document}
+\maketitle
+
+\section{Introduction}
+A control system manages commands, directs or regulates the behavior of other devices or systems. It can range from a home heating controller using a thermostat controlling a domestic boiler to large industrial control systems which are used for controlling processes or machines [1].
+\section{Background}
+The behavior of controls depends upon how they are used. One example being the protection afforded by a firewall is dependent upon the maintenance of the rules that determine what the firewall stops and what it does not. Therefore control systems can be limited by their configuration, threat faced and dependence on other controls.
+\section{Problem Statement}
+There are two common classes of control systems, open loop control systems, and closed loop control systems [2]. Open loop control systems often encounter time delays which makes it unstable in process industry. In some control systems, there are practical limits to the range of the manipulated variable for example; a heater can be fully off or fully on but not half way. Another problem with proportional control systems is that power application is always in direct proportion to the error. To resolve these problems, many control systems should include mathematical extensions to improve performance by using Derivative action [3] which is concerned with the rate-of-change of the error with time: Derivative action makes a control system behave much more intelligently.
+Open loop control systems should include the option to limit the "ramp up per minute". This option can be very helpful in stabilizing control systems such as small boilers(3 MBTUH).
+
+\section{Objectives}
+\subsection{Main Objective}
+To critically assess the tools , instrument, approaches, process and techniques to identify factors which contributes to performance and technical efficiency of controls.
+\subsection{Specific Objectives}
+To explore kinds of system performance limiters and ponder on how codes and architectures can be modified to reduce these limiting effects.
+To technically explore particular system performance limiters.
+To study a generic interactive multimedia framework which will take advantage of recent technology.
+To make recommendations so as to increase the operational effectiveness of various performance limiters.
+\section{Research Scope}
+This project select one or more controls and seek to develop laboratory experiments and implement them to gather data on how the effectiveness of the control is impacted by its deployment context for example configuration, dependence on other controls and threat faced.
+\section{Methodology}
+\subsection{System study}
+
+This will involve review of the relevant literature (i.e. books, journals, articles, Newspapers, etc) concerning the performance limiters for controls, relevant technologies to be used and collection of relevant data to design and implement the proposed system.
+\subsection{Data collection methods}
+
+
+I.	Interview
+
+
+II.	Document review
+
+
+III. Observation
+
+\section{Literature Review}
+\subsection{EXISTING SYSTEMS}
+\subsection{Linear control}
+Linear control systems use linear negative feedback to produce a control signal mathematically based on other variables, with a view to maintain the controlled process within an acceptable operating range.
+The output from a linear control system into the controlled process may be in the form of a directly variable signal, such as a valve that may be 0 or 100 percent open or anywhere in between. Sometimes this is not feasible which limit the performance of the control.
+\subsection{Wheel Slip Control for Improving Traction-Ability and Energy Efficiency of a Personal Electric Vehicle}
+A robust wheel slip control system based on a sliding mode controller improves traction-ability and reduces energy consumption during sudden acceleration for a personal electric vehicle. Sliding mode control techniques have been employed widely in the development of a robust wheel slip controller of conventional internal combustion engine vehicles due to their application effectiveness in nonlinear systems and robustness against model uncertainties and disturbances.
+It has an algorithm for vehicle velocity estimation. The vehicle velocity estimator was designed based on rotational wheel dynamics, measurable motor torque, and wheel velocity as well as rule-based logic. Comparative experiments with variations of control variables proved the effectiveness and practicality of the control design.
+
+\subsection{Cloud Control with Distributed Rate Limiting}
+Cloud-based services integrate globally with distributed resources into seamless computing platforms. Provisioning and accounting for the resource usage of these Internet-scale applications presents a challenging technical problem. The distributed rate limiters work together to enforce a global rate limit across traffic aggregates at multiple sites, enabling the coordinated policing of a cloud-based service’s network traffic. It also ensures that congestion-responsive transport-layer flows behave as if they traversed a single, shared limiter. It has two designs, One general purpose, and one optimized for TCP—that allow service operators to explicitly tradeoff between communication costs and system accuracy, efficiency, and scalability.
+Both designs are capable of rate limiting thousands of flows with negligible overhead.
+\section{References}
+
+1. "R. K.Gupta and S. D Senturia", "pull-time dynamics as a measure", proc.{IEEE} INTERNATIONAL WORKSHOP on microelectromechanical systems({MEMS}'97)", "Nagoya Japan",jan,"1997", "201-300"
+
+
+
+\end{document}
